@@ -1,0 +1,121 @@
+* {
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+}
+body {
+    background-color: whitesmoke;
+    color: white;
+    line-height: 1.5;
+    font-weight: normal;
+    font-size: 1rem;
+}
+footer.main-footer {
+    background: #111;
+}
+footer.main-footer .copyrights {
+    background: #0e0e0e;
+    color: #888;
+    padding: 30px 0;
+}
+.brand-logo {
+  width: 5rem;
+}
+.carousel-inner, .item {
+    max-height: 400px;
+}
+.card-body{
+    text-align: center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.quote{
+  color: whitesmoke;
+  margin-top: 150px;
+}
+.blog::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+}
+.blog-heading {
+    color: #00587a;
+}
+.sub-heading {
+    color: #008891;
+}
+.heading {
+    color: #0f3057;
+}
+.p-heading {
+    color: #0f3057 ;
+}
+.legacy-text{
+  line-height: 2rem;
+}
+#masonic-banner, #about-banner, #origin-banner, #world-banner, #form-banner, #locator-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 780px;
+  margin: 0;
+  width: auto;
+}
+#masonic-banner{
+  background-image: url('../images/lodge-forms.jpg');
+}
+#about-banner{
+  background-image: url('../images/masonBanner.jpg');
+}
+#origin-banner {
+  background-image: url('../images/boat-castle.jpeg');
+}
+#world-banner{
+  background-image: url('../images//global-map-.jpg');
+}
+#form-banner{
+  background-image: url('../images/forms.jpg');
+}
+#locator-banner {
+  background-image: url('../images//lodge-locator.jpg');
+}
+@media only screen and (max-width: 1024px) {
+    .order-md-1 {
+      display: none;
+    }
+    .order-md-2 {
+        max-width:100%;
+        text-align: center;
+        flex: none !important;
+        max-width: 100% !important;
+    }
+  }
+  @media only screen and (max-width: 823px) {
+    #affiliatedLodges {
+      display: none;
+    }
+  }
+  @media only screen and (max-width:823px) {
+      #rwLodge {
+          margin-bottom: 2rem;
+      }
+  }
